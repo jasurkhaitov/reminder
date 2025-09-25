@@ -2,7 +2,6 @@
 
 import { CountdownCard } from '@/components/CountDownCard'
 
-
 const TARGET_DATES = [
   { date: "2028-04-20", label: "Project Launch" },
   { date: "2026-01-01", label: "New Year 2026" },
@@ -10,7 +9,7 @@ const TARGET_DATES = [
   { date: "2025-10-16", label: "IELTS Date" },
 ]
 
-function App() {
+function RootPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center">
@@ -25,4 +24,4 @@ function App() {
   )
 }
 
-export default App
+export default RootPage
