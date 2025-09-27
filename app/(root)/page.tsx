@@ -7,6 +7,7 @@ const TARGET_DATES = [
   { date: "2026-01-01", label: "New Year 2026" },
   { date: "2025-10-20", label: "Birthday Date" },
   { date: "2025-10-16", label: "IELTS Date" },
+  { date: "2025-10-01", label: "IELTS Start Date" },
 ]
 
 function RootPage() {
