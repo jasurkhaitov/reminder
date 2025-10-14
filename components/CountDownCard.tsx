@@ -80,7 +80,7 @@ export function CountdownCard({ targetDate, label }: CountdownCardProps) {
 
 			<CardContent className="px-4 sm:px-6">
 				{countdown.isPast && (
-					<div className="text-center">
+					<div className="text-center mb-5">
 						<Badge variant="destructive" className="text-xs sm:text-sm">
 							Reached
 						</Badge>
