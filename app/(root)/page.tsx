@@ -3,7 +3,6 @@
 import { CountdownCard } from '@/components/CountDownCard'
 
 const TARGET_DATES = [
-  { date: "2025-10-20", label: "Birthday Date" },
   { date: "2026-01-01", label: "New Year 2026" },
   { date: "2028-04-20", label: "Project Launch" },
 ]
